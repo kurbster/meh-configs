@@ -66,6 +66,9 @@ map <leader>h :wincmd h<CR>
 map <leader>j :wincmd j<CR>
 map <leader>k :wincmd k<CR>
 map <leader>l :wincmd l<CR>
+map <leader>w :w<CR>
+map <leader>q :q<CR>
+map <leader>x :x<CR>
 nmap <leader>pf :CtrlP<CR>
 nnoremap <Leader>gd :GoDef<Enter>
 nnoremap <Leader>pt :NERDTreeToggle<Enter>

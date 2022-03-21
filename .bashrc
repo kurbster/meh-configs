@@ -16,8 +16,8 @@ HISTCONTROL=ignoreboth
 shopt -s histappend
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTSIZE=10000
-HISTFILESIZE=20000
+HISTSIZE=20000
+HISTFILESIZE=40000
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
@@ -110,3 +110,5 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+export EDITOR="/usr/bin/vim"
