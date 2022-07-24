@@ -19,3 +19,4 @@ alias ls='ls --color=auto --group-directories-first'
 alias la='ls -A'
 alias l='ls -CF'
 alias srb=". ~/.bashrc"
+alias new='function _f(){ pushd $(ls -1t | head -n1); unset -f _f; }; _f'
